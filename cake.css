@@ -1,0 +1,138 @@
+
+
+body{
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.category{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 0px -10px 0px;
+    padding: 1% 2%;
+    font-weight: bold;
+    font-size: 18px;
+}
+div.category{
+    text-align: center;
+    margin: 0 0 -10px 0;
+}
+   
+
+div.content{
+    background-color: white; 
+    margin: 0px 10% 60px 10%;
+    padding: 30px;
+    overflow: auto;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div.description{
+    text-align: center;
+
+}
+p.description{
+    text-align: center;
+    display: inline-block;
+    max-width: 70%;
+    font-size: 15px;
+    font-size: 2vw;
+
+    
+}
+div.separator{
+    background-color: black;
+    height: 2px;
+    width: 70%;  
+    margin: 3% auto;
+    
+    
+}
+img.image{
+    display: block;
+    margin: 0 auto;
+    max-height: 300px;
+    object-fit: cover;
+    width: 80%;
+    min-height: 150px;
+    background-color: #d0d0d1;
+
+
+}
+table.table{
+    position: absolute;
+    display: table;
+    font-size: 100%;
+    font-size: 1.8vw;
+    size:100%;
+    bottom: 0;
+    left: 10%; 
+    right: auto;  
+    margin: 0 auto;
+    width: 80%;
+    color:white;
+    background-color: #6C829Db0;
+    text-align: center;
+    align-items: center;
+}
+table.table th{
+    font-size: 110%;
+}
+table.table td{
+    font-size: 90%;
+}
+div.col1{
+    display: inline-block;
+}
+div.col2{
+    float: right; 
+}
+div.col{
+    width: 45%;
+    margin-top: 1px;
+}
+div.col h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829Db0;
+    padding-bottom: 2%;
+}
+div.ingr p{
+    border: 1px solid #8ba1bb;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 90%;
+    font-size: 2.8vw;
+    padding: 5px 0;
+}
+table.instr p.number{
+    background-color: #8ba1bb;
+    color: white;
+    font-size: 14px;
+    font-size: 3vw;
+    font-weight: bold;
+    width: 200%;
+    height: 100%;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-radius: 2vw;
+    margin: 0;
+}
+table.instr td.instr_step{
+    padding-left: 30px;
+    padding-left: 3vw;
+    font-size: 100%;
+    font-size: 3vw;
+   
+}
+table.instr td{
+    vertical-align: top;
+}
